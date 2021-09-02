@@ -1,6 +1,6 @@
 # excel_merge
 
-- 指定したExcelファイル群をまとめて１つのExcelファイルにする
+- 指定したExcelファイル群(それぞれ1シートを持つ)からシートをコピーし集めて、１つのExcelファイルにする
 
 - Pythonのopenpyxlでやろうとしたが、xlsファイルは扱えないので断念。
 - PowerShellでExcelのComを使って実現した。
